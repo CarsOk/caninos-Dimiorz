@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+     ;
+}
+
+
+#container{
+    width: 700px;
+    height:700px ;
+    border-width: 3px;
+    border-style: hidden;
+    margin: auto; 
+}
+header{
+    width: 700px;
+    height: 100px;
+    border-style: hidden;
+    border-width: 1px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}   
+nav{
+    width: 706px;
+    height: 45px;
+    border-style: hidden;
+    border-width: 1px;
+    background: rgb(158, 188, 218);
+    font: 19px white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    float: left;
+    
+}
+nav ul li{
+    font-size: 15px;
+    display: inline;
+    margin-left: 60px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+aside{
+    height: 200px;
+    width: 351px;    
+    border-style: hidden;
+    float: left;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    margin: 12px;
+    background-color: lavender;
+    
+}
+#derecha{   
+    height: 420px;
+    width: 300px;
+    border-width: 1px;
+    border-style: hidden;
+    float: right;
+    text-align: center;
+}
+footer{
+    width: 680px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(156, 172, 189);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+footer ul{
+    padding: 10px;
+
+}
+footer ul li{
+    list-style-type: none;
+    font-size: 10pt;
+    color: blanchedalmond;
+}
+
+h4  {
+    background: black;
+     color: white;
+     text-align: center;
+     border-radius: 10px 10px 0 0;
+}
+
+form{
+    line-height : 50px;    
+}
+img{
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;  
+  
+}
